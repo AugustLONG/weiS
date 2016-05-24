@@ -1,0 +1,19 @@
+Tue, 24 May 2016 15:22:13 base.py[line:349] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Tue, 24 May 2016 15:22:13 base.py[line:743] INFO Added job "timed_job_news" to job store "default"
+Tue, 24 May 2016 15:22:13 base.py[line:132] INFO Scheduler started
+Tue, 24 May 2016 15:22:13 base.py[line:795] DEBUG Looking for jobs to run
+Tue, 24 May 2016 15:22:13 base.py[line:840] DEBUG Next wakeup is due at 2016-05-24 15:23:00+08:00 (in 46.153864 seconds)
+Tue, 24 May 2016 15:23:00 base.py[line:795] DEBUG Looking for jobs to run
+Tue, 24 May 2016 15:23:00 base.py[line:110] INFO Running job "timed_job_news (trigger: cron[day_of_week='mon-sun', hour='5-23', minute='*/1'], next run at: 2016-05-24 15:23:00 CST)" (scheduled at 2016-05-24 15:23:00+08:00)
+Tue, 24 May 2016 15:23:00 base.py[line:840] DEBUG Next wakeup is due at 2016-05-24 15:24:00+08:00 (in 59.999421 seconds)
+Tue, 24 May 2016 15:23:00 main.py[line:58] INFO running cron job for --微信公众号功能搜索--  spider
+Tue, 24 May 2016 15:23:00 main.py[line:32] INFO running spider: weixin/weixin
+Tue, 24 May 2016 15:23:02 main.py[line:45] INFO end spider: weixin/weixin, runtime: 2 s
+Tue, 24 May 2016 15:23:02 base.py[line:121] INFO Job "timed_job_news (trigger: cron[day_of_week='mon-sun', hour='5-23', minute='*/1'], next run at: 2016-05-24 15:24:00 CST)" executed successfully
+Tue, 24 May 2016 15:24:00 base.py[line:795] DEBUG Looking for jobs to run
+Tue, 24 May 2016 15:24:00 base.py[line:110] INFO Running job "timed_job_news (trigger: cron[day_of_week='mon-sun', hour='5-23', minute='*/1'], next run at: 2016-05-24 15:24:00 CST)" (scheduled at 2016-05-24 15:24:00+08:00)
+Tue, 24 May 2016 15:24:00 main.py[line:58] INFO running cron job for --微信公众号功能搜索--  spider
+Tue, 24 May 2016 15:24:00 main.py[line:32] INFO running spider: weixin/weixin
+Tue, 24 May 2016 15:24:00 base.py[line:840] DEBUG Next wakeup is due at 2016-05-24 15:25:00+08:00 (in 59.995113 seconds)
+Tue, 24 May 2016 15:24:02 main.py[line:45] INFO end spider: weixin/weixin, runtime: 2 s
+Tue, 24 May 2016 15:24:02 base.py[line:121] INFO Job "timed_job_news (trigger: cron[day_of_week='mon-sun', hour='5-23', minute='*/1'], next run at: 2016-05-24 15:25:00 CST)" executed successfully
